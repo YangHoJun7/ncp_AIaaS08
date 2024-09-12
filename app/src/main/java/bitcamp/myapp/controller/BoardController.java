@@ -39,7 +39,8 @@ public class BoardController {
   private BoardService boardService;
   @Autowired
   private ObjectStorageService objectStorageService;
-  private String bucketName = "ncp08-bucket-9999";
+  private String bucketName = "ncp-ai08-bucket-2121"; //이건 개별로가야함.네이버쓰는사람 모두다른것
+//  private String bucketName = "ncp08-bucket-9999"; //이건 개별로가야함.네이버쓰는사람 모두다른것
 
   @PostMapping
   public Object insert(

@@ -31,7 +31,8 @@ public class TeacherController {
   private TeacherService teacherService;
   @Autowired
   private ObjectStorageService objectStorageService;
-  private String bucketName = "ncp08-bucket-9999-member-photo";
+  private String bucketName = "ncp08-ai08-bucket-2121-member-photo";
+//  private String bucketName = "ncp08-bucket-9999-member-photo";
 
   @PostMapping
   public Object insert(Teacher teacher, MultipartFile file) {

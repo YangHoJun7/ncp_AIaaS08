@@ -14,7 +14,7 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
-import bitcamp.myapp.NaverConfig;
+import bitcamp.myapp.NaverConfig; //네이버 컨피그 정보와. 위의 아마존은 접근 방식이 네이버가동일해서.아마존service
 import bitcamp.myapp.service.ObjectStorageService;
 
 @Service

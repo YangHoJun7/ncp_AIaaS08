@@ -31,7 +31,8 @@ public class StudentController {
   private StudentService studentService;
   @Autowired
   private ObjectStorageService objectStorageService;
-  private String bucketName = "ncp08-bucket-9999-member-photo";
+  private String bucketName = "ncp08-ai08-bucket-2121-member-photo"; //boardcontroller에서 줬떤 번호 그대로.
+//  private String bucketName = "ncp08-bucket-9999-member-photo"; //boardcontroller에서 줬떤 번호 그대로.
 
   @PostMapping
   public Object insert(Student student, MultipartFile file) {
